@@ -1,0 +1,94 @@
+1:"$Sreact.fragment"
+2:I[62988,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js","/mtus-plus/_next/static/chunks/3726rh43fhsu7.js"],"HashOpener"]
+3:T782,<ul>
+<li><strong>One Integrated File</strong> replaces the separate HAF and HEF in MTUS+. The legacy
+files continue in parallel.</li>
+<li><strong>New activity classifications:</strong> ICATUS 2016 and HETUS 2018 at 1-, 2- and
+3-digit level, alongside CTUR 69. The 25-activity scheme stays in the legacy
+files only.</li>
+<li><strong>Up to four activity layers</strong> (<code>pri_</code>, <code>sec_</code>, <code>ter_</code>, <code>quat_</code>) instead of
+primary and secondary only.</li>
+<li><strong>Episodes follow the original diary</strong> in fully harmonised surveys.</li>
+<li><strong>Original diary fields</strong> <code>of1</code>–<code>of12</code>, plus <code>purpose</code> and <code>affect</code>, kept as
+text.</li>
+<li><strong>Survey-level variables</strong> (<code>svy*</code>) describing diary design, fieldwork and
+classification coverage.</li>
+<li><strong>Household structure from the roster:</strong> <code>ngens</code>, <code>gen</code>, <code>hhstruct</code>, <code>hhrole</code>,
+<code>agech1</code>–<code>agech4</code> and more.</li>
+<li><strong>New background variables:</strong> <code>religion</code>, <code>hexpend</code>, household assets and
+energy sources; <code>ethnic</code> widened to other social-group classifications.</li>
+<li><strong>Sex:</strong> a third category, other / non-binary.</li>
+<li><strong>Weights and design:</strong> new <code>propwt_all</code>; <code>psu</code> and <code>strata</code> where available.</li>
+<li><strong>Identifiers:</strong> original identifiers kept, with <code>hldid_name</code>, <code>persid_name</code>
+and <code>id_name</code> naming the source variables.</li>
+<li><strong>Missing activity:</strong> system missing in ICATUS and HETUS; code 69 kept in
+CTUR 69.</li>
+</ul>
+<p class="tbc-block"><mark class="tbc"><strong>To be confirmed:</strong> confirm this list against the final Version 1 files; the BADCASE coding may also change</mark></p>
+b:X
+10:X
+10:C
+0:{"buildId":"30gkh6Dn2X4N-aap2fURB","data":[{"rsc":["$","$1","c",{"children":[[["$","header",null,{"className":"px-5 pb-16 pt-16 text-center sm:pb-20 sm:pt-24","children":[["$","p",null,{"data-reveal":true,"className":"text-[17px] font-semibold text-ink-2","children":"MTUS+"}],["$","h1",null,{"data-reveal":true,"style":{"--reveal-delay":"80ms"},"className":"mx-auto mt-2 max-w-3xl text-[44px] font-semibold leading-[1.05] tracking-[-0.025em] text-balance sm:text-[72px]","children":"Releases"}],["$","p",null,{"data-reveal":true,"style":{"--reveal-delay":"160ms"},"className":"mx-auto mt-5 max-w-xl text-[21px] leading-snug text-ink-2 text-balance sm:text-[24px]","children":"What's in Version 1, and what comes next."}],"$undefined"]}],["$","$L2",null,{}],"$undefined",["$","div",null,{"className":"mx-auto w-full max-w-[820px] px-5 pb-28","children":["",["$","div",null,{"className":"border-b border-hairline","children":[["$","details","mtus-version-1",{"id":"mtus-version-1","className":"disclosure group border-t border-hairline","children":[["$","summary",null,{"className":"flex items-center justify-between gap-6 py-6","children":[["$","h2",null,{"className":"text-[24px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]","children":"MTUS+ Version 1"}],["$","span",null,{"className":"disclosure-icon flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-ink-2 group-hover:text-ink","aria-hidden":"true","children":["$","svg",null,{"viewBox":"0 0 16 16","className":"h-3.5 w-3.5","fill":"none","stroke":"currentColor","strokeWidth":"1.8","strokeLinecap":"round","children":["$","path",null,{"d":"M8 2.5v11M2.5 8h11"}]}]}]]}],["$","div",null,{"className":"prose pb-10","dangerouslySetInnerHTML":{"__html":"<p>The first public release of MTUS+.\n<mark class=\"tbc\"><strong>To be confirmed:</strong> release date (planned for late October 2026)</mark></p>\n<p>Release 1 contains:</p>\n<ul>\n<li>the MTUS+ Integrated File (and possibly country or regional subsets);</li>\n<li>surveys <strong>fully harmonised</strong> under the MTUS+ protocol;</li>\n<li>legacy MTUS surveys converted to the MTUS+ structure under <strong>interim\nharmonisation</strong>;</li>\n<li>a parallel release of legacy MTUS files.</li>\n</ul>\n<p class=\"tbc-block\"><mark class=\"tbc\"><strong>To be confirmed:</strong> the definitive Release 1 survey list, with each survey marked as fully harmonised or transitional</mark></p>\n<p class=\"tbc-block\"><mark class=\"tbc\"><strong>To be confirmed:</strong> the file list, formats and sizes for the release notes</mark></p>\n"}}]]}],["$","details","changes-from-legacy-mtus",{"id":"changes-from-legacy-mtus","className":"disclosure group border-t border-hairline","children":[["$","summary",null,{"className":"flex items-center justify-between gap-6 py-6","children":[["$","h2",null,{"className":"text-[24px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]","children":"Changes From Legacy MTUS"}],["$","span",null,{"className":"disclosure-icon flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-ink-2 group-hover:text-ink","aria-hidden":"true","children":["$","svg",null,{"viewBox":"0 0 16 16","className":"h-3.5 w-3.5","fill":"none","stroke":"currentColor","strokeWidth":"1.8","strokeLinecap":"round","children":["$","path",null,{"d":"M8 2.5v11M2.5 8h11"}]}]}]]}],["$","div",null,{"className":"prose pb-10","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],"$L4","$L5","$L6"]}],"$L7"]}]],["$L8"],"$L9"]}],"isPartial":"$@a","staleTime":"$b","varyParams":null},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$b","varyParams":null},{"rsc":"$Le","isPartial":"$@f","staleTime":"$b","varyParams":"$10"}],"isUpgradeableISRFallback":false,"a":"$@11","rootVaryParams":null,"needsRuntimeRequest":"$@12"}
+15:I[97367,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+18:I[97367,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js"],"ViewportBoundary"]
+19:I[97367,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js"],"MetadataBoundary"]
+1a:I[27201,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js"],"IconMark"]
+1b:I[39756,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js"],"default"]
+1c:I[37457,["/mtus-plus/_next/static/chunks/0_tc3us6n8edf.js"],"default"]
+13:T42a,<ul>
+<li><strong>Interim activity codes for legacy surveys.</strong> ICATUS and HETUS variables
+are derived from the legacy 69-activity scheme, not from the original
+national codes. Detailed ICATUS categories for employment and own-use
+production often cannot be reconstructed.</li>
+<li><strong>Two episode definitions.</strong> Fully harmonised surveys keep the original
+diary&#39;s episodes; legacy surveys keep the legacy definition. Do not compare
+episode counts or durations across the two without redefining episodes.</li>
+<li><strong>Non-harmonised text variables in legacy surveys</strong> may hold numeric
+codes rather than descriptive labels.</li>
+<li><strong>Household roster variables</strong> are only available where a roster exists.
+They will be added progressively as national statistical offices supply
+rosters.</li>
+<li><strong>Replicate-weight variance designs</strong> are not yet harmonised.</li>
+</ul>
+<p class="tbc-block"><mark class="tbc"><strong>To be confirmed:</strong> other known limitations from the Release 1 quality checks</mark></p>
+4:["$","details","known-limitations",{"id":"known-limitations","className":"disclosure group border-t border-hairline","children":[["$","summary",null,{"className":"flex items-center justify-between gap-6 py-6","children":[["$","h2",null,{"className":"text-[24px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]","children":"Known Limitations"}],["$","span",null,{"className":"disclosure-icon flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-ink-2 group-hover:text-ink","aria-hidden":"true","children":["$","svg",null,{"viewBox":"0 0 16 16","className":"h-3.5 w-3.5","fill":"none","stroke":"currentColor","strokeWidth":"1.8","strokeLinecap":"round","children":["$","path",null,{"d":"M8 2.5v11M2.5 8h11"}]}]}]]}],["$","div",null,{"className":"prose pb-10","dangerouslySetInnerHTML":{"__html":"$13"}}]]}]
+14:T675,<ul>
+<li><strong>Re-harmonising legacy surveys</strong> from the original microdata, starting
+with surveys whose original data and activity coding allow accurate
+reconstruction.</li>
+<li><strong>More surveys</strong>, particularly from Africa, Asia and Latin America, as
+harmonisation and redistribution permissions are completed.</li>
+<li><strong>Harmonisation syntax</strong> for more surveys, and R equivalents of the
+<code>epigenx</code> and <code>timealloc</code> tools.</li>
+<li><strong>MTUS Special Collections.</strong> Small, linkable sets of derived variables for
+particular research areas. Planned examples are health (sleep timing,
+physical-activity intensity from MET values) and environment (energy use and
+carbon coefficients for everyday activities).
+<mark class="tbc"><strong>To be confirmed:</strong> project title and grant number funding the Special Collections</mark></li>
+<li><strong>MTUS Kids.</strong> Adding parental and household information to children&#39;s
+diary records, where technically and legally feasible.</li>
+<li><strong>Commuting and transport.</strong> Harmonising, and where justified imputing,
+travel episodes from location sequences, episode order and transport codes.</li>
+<li><strong>Stylised (non-diary) time-use surveys.</strong> Possible inclusion, clearly
+flagged and kept analytically separate, to extend coverage and support
+validation studies.
+<mark class="tbc"><strong>To be confirmed:</strong> whether this is a decided plan; the User Guide marks it &quot;to be decided&quot;</mark></li>
+<li><strong>Harmonised purpose and affect</strong> indicators, once enough comparable
+surveys exist.</li>
+</ul>
+5:["$","details","planned-developments",{"id":"planned-developments","className":"disclosure group border-t border-hairline","children":[["$","summary",null,{"className":"flex items-center justify-between gap-6 py-6","children":[["$","h2",null,{"className":"text-[24px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]","children":"Planned Developments"}],["$","span",null,{"className":"disclosure-icon flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-ink-2 group-hover:text-ink","aria-hidden":"true","children":["$","svg",null,{"viewBox":"0 0 16 16","className":"h-3.5 w-3.5","fill":"none","stroke":"currentColor","strokeWidth":"1.8","strokeLinecap":"round","children":["$","path",null,{"d":"M8 2.5v11M2.5 8h11"}]}]}]]}],["$","div",null,{"className":"prose pb-10","dangerouslySetInnerHTML":{"__html":"$14"}}]]}]
+6:["$","details","earlier-mtus-releases",{"id":"earlier-mtus-releases","className":"disclosure group border-t border-hairline","children":[["$","summary",null,{"className":"flex items-center justify-between gap-6 py-6","children":[["$","h2",null,{"className":"text-[24px] font-semibold leading-tight tracking-[-0.015em] sm:text-[28px]","children":"Earlier MTUS Releases"}],["$","span",null,{"className":"disclosure-icon flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-ink-2 group-hover:text-ink","aria-hidden":"true","children":["$","svg",null,{"viewBox":"0 0 16 16","className":"h-3.5 w-3.5","fill":"none","stroke":"currentColor","strokeWidth":"1.8","strokeLinecap":"round","children":["$","path",null,{"d":"M8 2.5v11M2.5 8h11"}]}]}]]}],["$","div",null,{"className":"prose pb-10","dangerouslySetInnerHTML":{"__html":"<p>Legacy MTUS continues its own release sequence. The current release is MTUS\nRelease 11 (2025), on the\n<a href=\"https://doi.org/10.5522/04/28682660.v1\" target=\"_blank\" rel=\"noopener noreferrer\">UCL Research Data Repository</a>.</p>\n"}}]]}]
+7:["$","p",null,{"className":"mt-6 text-sm text-ink-3","children":["Last updated ","10 October 2026"]}]
+8:["$","script","script-0",{"src":"/mtus-plus/_next/static/chunks/3726rh43fhsu7.js","async":true}]
+9:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+c:["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$16",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Releases · MTUS+"}],["$","meta","1",{"name":"description","content":"What's in Version 1, and what comes next."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","meta","3",{"property":"og:title","content":"MTUS+ · Multinational Time Use Study Plus"}],["$","meta","4",{"property":"og:description","content":"MTUS+ is the redesigned Multinational Time Use Study: harmonised time-use diary microdata from around the world, keeping far more of each original survey's detail."}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"MTUS+ · Multinational Time Use Study Plus"}],["$","meta","8",{"name":"twitter:description","content":"MTUS+ is the redesigned Multinational Time Use Study: harmonised time-use diary microdata from around the world, keeping far more of each original survey's detail."}],["$","link","9",{"rel":"icon","href":"/mtus-plus/icon.svg?icon.0n7x7k5jy0hvi.svg","sizes":"any","type":"image/svg+xml"}],["$","$L1a","10",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+e:["$","$1","c",{"children":[null,["$","$L1b",null,{"parallelRouterKey":"children","template":["$","$L1c",null,{}]}]]}]
+12:true
+17:null
+b:300
+b:C
+11:0
+d:"$undefined"
+f:"$undefined"
+a:"$undefined"
